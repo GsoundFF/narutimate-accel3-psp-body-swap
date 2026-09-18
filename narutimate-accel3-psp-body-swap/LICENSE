@@ -1,0 +1,57 @@
+MIT License
+
+Copyright (c) 2026 narutimate-accel3-psp-body-swap contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+THIRD-PARTY NOTICES
+================================================================================
+
+This project's own source code and documentation are licensed under the MIT
+License above. The following third-party components are referenced but NOT
+bundled in this repository. They remain under their own licenses, and you must
+obtain and comply with them separately.
+
+1) Blender CCS Importer (ccs_lib)
+   - Used for: reading/writing CyberConnect Streaming Files (.CCS / CCSF).
+   - Author: Hydra (Al-Hydra) and contributors (NCDyson, zMath3usMSF, Kvasir,
+     ShonenGameZ, justcamtro).
+   - License: its own "Blender_CCS_Importer License Version 1.1".
+   - This repository does NOT redistribute it. See docs/ccs_lib-lossless-fixes.md
+     for the changes required to make it byte-lossless.
+
+2) Kuriimu2 — plugin_criware/CRILAYLA.cs
+   - Used for: tools/crilayla_official.py is a Python port of that CRILAYLA codec.
+   - License: Kuriimu2 is distributed under GPL-3.0.
+   - Because tools/crilayla_official.py is a derivative work, that single file is
+     subject to GPL-3.0. If you need an MIT-only repository, delete that file and
+     use another CRILAYLA implementation or call upstream directly.
+
+No game assets, game data, or copyrighted game content are included in this
+repository.
+
+================================================================================
+DISCLAIMER
+================================================================================
+
+This project is intended for personal study, research and offline single-player
+use only. Do not use it commercially or for online play. Use it in compliance
+with your local laws and the game's terms of service, and support the official
+release.
